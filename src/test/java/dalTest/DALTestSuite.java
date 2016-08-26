@@ -1,6 +1,7 @@
 package dalTest;
 
-import dalTest.DataActionsTest.RetrieveMapsActionTest;
+import dalTest.loadDataFromDBTest.LoadDataActorsTest;
+import dalTest.loadDataFromDBTest.LoadDataMapsTest;
 import dalTest.loadSettings.SettingsLoaderTest;
 import org.junit.runner.RunWith;
 
@@ -10,7 +11,8 @@ import org.junit.runner.RunWith;
 @RunWith(org.junit.runners.Suite.class)
 @org.junit.runners.Suite.SuiteClasses({
         SettingsLoaderTest.class,
-        RetrieveMapsActionTest.class,
+        LoadDataMapsTest.class,
+        LoadDataActorsTest.class,
 })
 public class DALTestSuite {
 }
